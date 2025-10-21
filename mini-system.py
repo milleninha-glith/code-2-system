@@ -13,8 +13,14 @@ def cadastro_new_user():
 opcao_inicial = int(input("Digite 1 para fazer LOGIN ou Digite 2 para CADASTRO: \n"))
 if opcao_inicial == 1 or opcao_inicial == 2:
     if opcao_inicial == 1:
+        nome_cad = "mi"
+        senha_cad = "1996"
+
         username_cad = input("Digite seu usuário cadastrado: ")
         password_cad = input("Digite sua senha cadastrada: ")
+
+        if username_cad == nome_cad:
+            while password_cad != senha_cad
         print("Usuário Logado no MINI SYSTEM")
     else:
         cadastro_new_user()
